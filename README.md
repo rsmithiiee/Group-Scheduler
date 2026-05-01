@@ -78,8 +78,8 @@ CMPE_131_Project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-org>/CMPE_131_Project.git
-cd CMPE_131_Project
+git clone https://github.com/<your-org>/Group-Scheduler.git
+cd Group-Scheduler
 ```
 
 ---
@@ -178,8 +178,27 @@ The result is a JSON array of `{ start, end }` objects representing periods when
 
 ---
 
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to your fork: `git push origin feature/your-feature-name`
+5. Open a Pull Request against `main`
+
+Please make sure the Flask server starts cleanly and the frontend builds without errors (`npm run build`) before submitting.
+
 ---
 
 ## Maintainers
 
-This project was developed as part of **CMPE 131 — Software Engineering** at San José State University.
+This project was developed as part of **CMPE 131 — Software Engineering** at San José State University by:
+
+- Ryan Smith
+- Hemanth Karnati
+- Alex Cheong
+- Michael Chan
+---
+
+## License
+This project is for academic use.
